@@ -1,4 +1,4 @@
 # DWES Journal
 
-Actividades de la clase DWES
+Actividades de la clase DWES.
 
