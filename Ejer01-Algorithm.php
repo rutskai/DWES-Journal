@@ -1,6 +1,22 @@
 <?php
 
-echo "Hello"
+#Write a PHP program to compute the sum of the two given integer values. If the two values are the same, then returns triple their sum.
+
+function triple($x,$y){
+   if ($x==$y){
+    return ($x+$y)*3;
+   } else{
+return $x +$y;
+   }
+}
+
+echo "Programa que suma/ triplica:\n";
+echo triple(1,2);
+echo triple(3,2);
+echo triple(2,2);
+
+
+
 
 
 
