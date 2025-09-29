@@ -13,10 +13,7 @@ for ($i = 0; $i < count($color); $i++) {
         $isLast = true;
     }
 
-    if ($isLast == false) {
-
-        echo ("$color[$i], ");
-    }
+    echo ("$color[$i], ");
 }
 
 ?>
