@@ -4,7 +4,7 @@
 
 function difference($n)
 {
-    $result = 51-$n;
+    $result = abs(51-$n);
 
     if ($n > 51) {
         return $result * 3;
