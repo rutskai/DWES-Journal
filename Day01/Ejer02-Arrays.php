@@ -8,12 +8,13 @@ $isLast = false;
 
 for ($i = 0; $i < count($color); $i++) {
 
-    if ($i == count($color) - 1) {
-        echo ($color[$i]);
-        $isLast = true;
+   echo $color[$i];
+
+    if ($i < count($color) - 1) {
+        echo ", ";
     }
 
-    echo ("$color[$i], ");
+
 }
 
 ?>
