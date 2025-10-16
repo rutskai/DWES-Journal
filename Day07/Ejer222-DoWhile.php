@@ -26,8 +26,8 @@ function powerFunction($base, $exponent) {
     return $result;
 }
 
-// Ejemplos de uso
-echo powerFunction(2, 3) . "\n"; 
+echo powerFunction(2, 2) . "\n"; 
+echo powerFunction(2, -2) . "\n"; 
 echo powerFunction(2, 0);  
 
 
